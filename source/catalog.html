@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cat Energy</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <script src="scripts/index.js" defer></script>
+</head>
+
+<body class="page">
+  <!-- Шапка сайта -->
+  <header class="header">
+    <div class="header__container">
+      <div class="header__logo logo">
+        <div class="logo__image"></div>
+        <div class="logo__text"></div>
+      </div>
+
+      <nav class="header__nav nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link"></a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link"></a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link"></a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="nav__toggle">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- Каталог товаров -->
+    <section class="catalog">
+      <div class="catalog__container">
+        <h1 class="catalog__title"></h1>
+
+        <!-- Основные товары -->
+        <div class="catalog__products">
+          <ul class="catalog__grid">
+            <li class="catalog__item">
+              <article class="product-card">
+                <div class="product-card__image">
+                  <img class="product-card__photo" src="" alt="">
+                </div>
+
+                <div class="product-card__info">
+                  <h3 class="product-card__name"></h3>
+
+                  <dl class="product-card__specs specs">
+                    <div class="specs__item">
+                      <dt class="specs__label"></dt>
+                      <dd class="specs__value"></dd>
+                    </div>
+                    <div class="specs__item">
+                      <dt class="specs__label"></dt>
+                      <dd class="specs__value"></dd>
+                    </div>
+                    <div class="specs__item">
+                      <dt class="specs__label"></dt>
+                      <dd class="specs__value"></dd>
+                    </div>
+                  </dl>
+
+                  <button class="product-card__button button button--primary"></button>
+                </div>
+              </article>
+            </li>
+
+            <li class="catalog__item">
+              <article class="product-card">
+                <div class="product-card__image">
+                  <img class="product-card__photo" src="" alt="">
+                </div>
+
+                <div class="product-card__info">
+                  <h3 class="product-card__name"></h3>
+
+                  <dl class="product-card__specs specs">
+                    <div class="specs__item">
+                      <dt class="specs__label"></dt>
+                      <dd class="specs__value"></dd>
+                    </div>
+                    <div class="specs__item">
+                      <dt class="specs__label"></dt>
+                      <dd class="specs__value"></dd>
+                    </div>
+                    <div class="specs__item">
+                      <dt class="specs__label"></dt>
+                      <dd class="specs__value"></dd>
+                    </div>
+                  </dl>
+
+                  <button class="product-card__button button button--primary"></button>
+                </div>
+              </article>
+            </li>
+
+            <!-- Карточка "Показать еще" -->
+            <li class="catalog__item">
+              <div class="catalog__more more-card">
+                <button class="more-card__button">
+                  <span class="more-card__icon"></span>
+                  <span class="more-card__text"></span>
+                  <span class="more-card__description"></span>
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Дополнительные товары -->
+    <section class="additional-products">
+      <div class="additional-products__container">
+        <h2 class="additional-products__title"></h2>
+
+        <ul class="additional-products__list">
+          <li class="additional-products__item additional-item">
+            <h3 class="additional-item__name"></h3>
+            <div class="additional-item__specs">
+              <span class="additional-item__volume"></span>
+              <span class="additional-item__price"></span>
+            </div>
+            <button class="additional-item__button button button--primary"></button>
+          </li>
+
+          <li class="additional-products__item additional-item">
+            <h3 class="additional-item__name"></h3>
+            <div class="additional-item__specs">
+              <span class="additional-item__volume"></span>
+              <span class="additional-item__price"></span>
+            </div>
+            <button class="additional-item__button button button--primary"></button>
+          </li>
+
+          <li class="additional-products__item additional-item">
+            <h3 class="additional-item__name"></h3>
+            <div class="additional-item__specs">
+              <span class="additional-item__volume"></span>
+              <span class="additional-item__price"></span>
+            </div>
+            <button class="additional-item__button button button--primary"></button>
+          </li>
+
+          <li class="additional-products__item additional-item">
+            <h3 class="additional-item__name"></h3>
+            <div class="additional-item__specs">
+              <span class="additional-item__volume"></span>
+              <span class="additional-item__price"></span>
+            </div>
+            <button class="additional-item__button button button--primary"></button>
+          </li>
+        </ul>
+
+        <!-- Блок подарка -->
+        <div class="additional-products__gift gift-banner">
+          <div class="gift-banner__icon"></div>
+          <div class="gift-banner__content">
+            <p class="gift-banner__text"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Акции и новинки -->
+    <section class="promo">
+      <div class="promo__container">
+        <h2 class="promo__title"></h2>
+
+        <div class="promo__newsletter newsletter">
+          <p class="newsletter__text"></p>
+
+          <form class="newsletter__form" action="https://echo.htmlacademy.ru">
+            <input class="newsletter__input" type="email" placeholder="">
+            <button class="newsletter__button button button--primary"></button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Контакты -->
+  <section class="contacts">
+    <div class="contacts__container">
+      <div class="contacts__info">
+        <h2 class="contacts__title"></h2>
+        <address class="contacts__address"></address>
+      </div>
+
+      <div class="contacts__map map">
+        <iframe class="map__frame"></iframe>
+        <div class="map__marker"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Футер -->
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__logo logo">
+        <div class="logo__text"></div>
+      </div>
+
+      <ul class="footer__social social">
+        <li class="social__item">
+          <a href="#" class="social__link social__link--vk"></a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link social__link--youtube"></a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link social__link--telegram"></a>
+        </li>
+      </ul>
+
+      <div class="footer__copyright copyright">
+        <span class="copyright__text"></span>
+        <a href="#" class="copyright__link"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
