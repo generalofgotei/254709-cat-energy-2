@@ -1,14 +1,190 @@
 <!DOCTYPE html>
 <html class="page" lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <title>Название проекта</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <script src="scripts/index.js" defer></script>
-  </head>
-  <body class="page__body">
-    <header class="header">Шапка</header>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cat Energy</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <script src="scripts/index.js" defer></script>
+</head>
+
+<body class="page">
+  <!-- Шапка сайта -->
+  <header class="header">
+    <div class="header__container">
+      <div class="header__logo logo">
+        <div class="logo__image"></div>
+        <div class="logo__text"></div>
+      </div>
+
+      <nav class="header__nav nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link"></a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link"></a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link"></a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="nav__toggle">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- Главный баннер -->
+    <section class="hero">
+      <div class="hero__container">
+        <div class="hero__content">
+          <h1 class="hero__title"></h1>
+          <p class="hero__subtitle"></p>
+          <button class="hero__button button button--primary"></button>
+        </div>
+
+        <div class="hero__image">
+          <img class="hero__product" src="" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- Программы питания -->
+    <section class="programs">
+      <div class="programs__container">
+        <ul class="programs__list">
+          <li class="programs__item program-card program-card--slim">
+            <div class="program-card__icon"></div>
+            <h3 class="program-card__title"></h3>
+            <p class="program-card__description"></p>
+            <a href="#" class="program-card__link"></a>
+          </li>
+
+          <li class="programs__item program-card program-card--pro">
+            <div class="program-card__icon"></div>
+            <h3 class="program-card__title"></h3>
+            <p class="program-card__description"></p>
+            <a href="#" class="program-card__link"></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Как это работает -->
+    <section class="features">
+      <div class="features__container">
+        <h2 class="features__title"></h2>
+
+        <ul class="features__list">
+          <li class="features__item feature">
+            <div class="feature__icon"></div>
+            <p class="feature__description"></p>
+          </li>
+
+          <li class="features__item feature">
+            <div class="feature__icon"></div>
+            <p class="feature__description"></p>
+          </li>
+
+          <li class="features__item feature">
+            <div class="feature__icon"></div>
+            <p class="feature__description"></p>
+          </li>
+
+          <li class="features__item feature">
+            <div class="feature__icon"></div>
+            <p class="feature__description"></p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Живой пример -->
+    <section class="example">
+      <div class="example__container">
+        <h2 class="example__title"></h2>
+        <p class="example__description"></p>
+
+        <div class="example__stats stats">
+          <dl class="stats__list">
+            <div class="stats__item">
+              <dt class="stats__value"></dt>
+              <dd class="stats__label"></dd>
+            </div>
+
+            <div class="stats__item">
+              <dt class="stats__value"></dt>
+              <dd class="stats__label"></dd>
+            </div>
+
+            <div class="stats__item stats__item--total">
+              <dt class="stats__label"></dt>
+              <dd class="stats__value"></dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="example__slider slider">
+          <div class="slider__image">
+            <img class="slider__photo" src="" alt="">
+          </div>
+
+          <div class="slider__controls">
+            <button class="slider__button slider__button--prev"></button>
+            <div class="slider__range"></div>
+            <button class="slider__button slider__button--next"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Контакты -->
+  <section class="contacts">
+    <div class="contacts__container">
+      <div class="contacts__info">
+        <h2 class="contacts__title"></h2>
+        <address class="contacts__address"></address>
+      </div>
+
+      <div class="contacts__map map">
+        <iframe class="map__frame"></iframe>
+        <div class="map__marker"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Футер -->
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__logo logo">
+        <div class="logo__text"></div>
+      </div>
+
+      <ul class="footer__social social">
+        <li class="social__item">
+          <a href="#" class="social__link social__link--vk"></a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link social__link--youtube"></a>
+        </li>
+        <li class="social__item">
+          <a href="#" class="social__link social__link--telegram"></a>
+        </li>
+      </ul>
+
+      <div class="footer__copyright copyright">
+        <span class="copyright__text"></span>
+        <a href="#" class="copyright__link"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
